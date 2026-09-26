@@ -12,7 +12,7 @@ if (-not (Test-Path $InstallDir)) {
 }
 
 Write-Host "[1/4] Downloading latest version from GitHub..." -ForegroundColor Green
-$ZipUrl = "https://github.com/SabirAnsari/Hand-Steering-Controller/archive/refs/heads/main.zip"
+$ZipUrl = "https://github.com/Sabir7869/Hand-Steering-Controller/archive/refs/heads/main.zip"
 $ZipPath = "$env:TEMP\hand_steer.zip"
 
 try {

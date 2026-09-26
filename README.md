@@ -9,7 +9,7 @@ Control driving & racing games using real-time AI hand gestures via webcam! Buil
 Any user on Windows can install, set up, and start playing immediately with just **one line** in PowerShell:
 
 ```powershell
-irm https://raw.githubusercontent.com/<YOUR-GITHUB-USERNAME>/Hand-Steering-Controller/main/install.ps1 | iex
+irm https://raw.githubusercontent.com/Sabir7869/Hand-Steering-Controller/main/install.ps1 | iex
 ```
 
 > **Note**: This automatically creates an isolated environment, installs all required packages, registers `hand-steer` to the system, and launches the game right away!
@@ -22,7 +22,7 @@ If you prefer installing via `pip`:
 
 ```bash
 # 1. Install directly from GitHub
-pip install git+https://github.com/<YOUR-GITHUB-USERNAME>/Hand-Steering-Controller.git
+pip install git+https://github.com/Sabir7869/Hand-Steering-Controller.git
 
 # 2. Run from ANY terminal
 hand-steer
@@ -35,7 +35,7 @@ hand-steer
 ## 🛠️ Method 3: Manual Clone & Run
 
 ```bash
-git clone https://github.com/<YOUR-GITHUB-USERNAME>/Hand-Steering-Controller.git
+git clone https://github.com/Sabir7869/Hand-Steering-Controller.git
 cd Hand-Steering-Controller
 pip install -r requirements.txt
 python main.py
