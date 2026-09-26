@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hand-steering-controller"
+version = "1.0.0"
+description = "AI hand gesture steering controller for racing games"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "opencv-python>=4.8.0",
+    "mediapipe>=0.10.0",
+    "numpy>=1.24.0",
+    "pynput>=1.7.0",
+]
+
+[project.scripts]
+hand-steer = "main:main"
+hand-diag = "camera_diagnostic:main"
+
+[tool.setuptools]
+py-modules = ["main", "detector", "controller", "gesture", "camera_diagnostic"]
+
+[tool.setuptools.package-data]
+"*" = ["*.task"]
