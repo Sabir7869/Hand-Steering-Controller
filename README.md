@@ -53,8 +53,3 @@ python main.py
 | **Open Palms** | Both hands open | Accelerate Forward (`W`) |
 | **Fist (Closed Hand)** | Any hand in fist | Brake / Stop (`S` / Key Release) |
 | **ESC key** | Exit | Closes controller & camera |
-
----
-
-## 📄 License
-MIT License
